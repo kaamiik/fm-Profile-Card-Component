@@ -106,7 +106,7 @@ main {
 }
 
 .card {
-  max-width: calc(326 / 16 * 1rem);
+  max-width: calc(360 / 16 * 1rem);
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -176,14 +176,21 @@ hr {
 
 .card__socialstats--items {
   display: flex;
-  padding: 0 54px 24px 47px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 24px;
 }
 
 .item--first {
   margin-right: 46px;
+  margin-left: 47px;
 }
 
 .item--second {
+  margin-right: 54px;
+}
+
+.item--third {
   margin-right: 54px;
 }
 
