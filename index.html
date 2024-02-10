@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <main>
+        <div class="card">
+          <header class="card__header">
+            <img
+              src="images/image-victor.jpg"
+              alt="Victor Avatar"
+              class="card__profile--avatar"
+            />
+            <div class="card__informations">
+              <div class="card__information--personal">
+                <h2 class="card__fullname">Victor Crest</h2>
+                <p class="card__age">26</p>
+              </div>
+              <p class="card__location">London</p>
+            </div>
+          </header>
+          <hr />
+          <section class="card__socialstats">
+            <ul class="card__socialstats--items">
+              <li class="card__socialstats--item item--first">
+                <span class="card__item--count">80K</span>
+                <span class="card__item--label">Followers</span>
+              </li>
+              <li class="card__socialmedia--item item--second">
+                <span class="card__item--count">803K</span>
+                <span class="card__item--label">Likes</span>
+              </li>
+              <li class="card__socialmedia--item item--third">
+                <span class="card__item--count">1.4K</span>
+                <span class="card__item--label">Photos</span>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Kamran Kiani</a>.
+      </footer>
+    </div>
+  </body>
+</html>
