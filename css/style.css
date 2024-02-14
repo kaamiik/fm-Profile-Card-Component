@@ -58,6 +58,11 @@ body {
   font-size: calc(18 / 16 * 1rem);
   min-height: 100%;
   text-align: center;
+  background-color: var(--dark-cyan);
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 
 .wrapper {
@@ -69,11 +74,11 @@ body {
   position: relative;
   overflow: hidden;
   z-index: -1;
-  background: var(--dark-cyan);
+
   color: var(--dark-grayish-blue);
 }
 
-.wrapper::before,
+/* .wrapper::before,
 .wrapper::after {
   position: absolute;
   content: "";
@@ -94,7 +99,7 @@ body {
   top: 100%;
   left: 100%;
   background: url("../images/bg-pattern-bottom.svg") no-repeat top left;
-}
+} */
 
 main {
   display: flex;
